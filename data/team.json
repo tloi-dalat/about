@@ -1,0 +1,50 @@
+{
+    "teams": [
+        {
+            "key": "setters",
+            "title": "Problem Setters",
+            "subtitle": "Crafting high-quality, educational, and challenging problems.",
+            "members": [
+                {
+                    "name": "Dinh Cao Minh Quan",
+                    "role": "Coordinator",
+                    "description": ""
+                },
+                {
+                    "name": "Hoang Duc Huy",
+                    "role": "Setter",
+                    "description": ""
+                },
+                {
+                    "name": "Dang Huy Hau",
+                    "role": "Setter",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "key": "tech",
+            "title": "Technical Team",
+            "subtitle": "Building and maintaining the platform and infrastructure.",
+            "members": [
+                {
+                    "name": "Ta Hoang Phuc",
+                    "role": "Online Judge Maintainer",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "key": "design",
+            "title": "Design Team",
+            "subtitle": "Shaping the brand and user experience.",
+            "members": [
+                {
+                    "name": "Nguyen Tien Son",
+                    "role": "Designer",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

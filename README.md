@@ -1,2 +1,3 @@
-# tloi
-Introduction to TLOI
+# TLOI
+
+A simple static website for TLOI
