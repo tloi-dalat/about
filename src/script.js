@@ -44,24 +44,11 @@ function renderTeamSection(team) {
 }
 
 function renderMemberCard(m) {
-    const hasAvatar = !!(m.avatar && String(m.avatar).trim());
-    const avatarHtml = hasAvatar
-        ? `<img
-         src="${escapeHtml(m.avatar)}"
-         alt="${escapeHtml(m.name || "Team member")}"
-         loading="lazy"
-       />`
-        : "";
-
     return `
     <div class="team-member">
-      <div class="team-avatar">
-        ${avatarHtml}
-      </div>
-
       <div class="team-info">
         <h4 class="team-name">${escapeHtml(m.name || "")}</h4>
-        ${m.role ? `<div class="team-role">${escapeHtml(m.role)}</div>` : ""}
+        ${m.role ? `<div class="team-role"><span class="role-status-dot"></span>${escapeHtml(m.role)}</div>` : ""}
         ${m.description ? `<p class="team-bio">${escapeHtml(m.description)}</p>` : ""}
       </div>
     </div>
@@ -111,8 +98,8 @@ function escapeHtml(str) {
 
     const PETAL_SRC = "img/blossom.png";
 
-    const SPAWN_EVERY_MS = 200;
-    const MAX_PETALS = 50;
+    const SPAWN_EVERY_MS = 800;
+    const MAX_PETALS = 15;
 
     function rand(min, max) {
         return Math.random() * (max - min) + min;
@@ -144,7 +131,6 @@ function escapeHtml(str) {
         petal.style.setProperty("--opacity", `${opacity}`);
         petal.style.setProperty("--rot0", `${rot0}deg`);
 
-        // Build inner structure (separates fall/sway/spin animations cleanly)
         const swayWrap = document.createElement("div");
         swayWrap.className = "petal-sway";
 
@@ -158,15 +144,12 @@ function escapeHtml(str) {
         petal.appendChild(swayWrap);
         container.appendChild(petal);
 
-        // Remove after it finishes falling
         const lifetime = (fall + delay) * 1000 + 200;
         setTimeout(() => petal.remove(), lifetime);
     }
 
-    // initial burst
-    for (let i = 0; i < 12; i++) createPetal();
+    for (let i = 0; i < 4; i++) createPetal();
 
-    // continuous spawn
     setInterval(createPetal, SPAWN_EVERY_MS);
 })();
 
@@ -174,11 +157,32 @@ function escapeHtml(str) {
     const hero = document.querySelector(".hero");
     if (!hero) return;
 
-    // Get initial viewport height (first load only)
     const initialVH = window.innerHeight;
 
-    // Lock hero to that height
     hero.style.setProperty("--heroH", `${initialVH}px`);
 })();
 
 loadTeams();
+
+document.addEventListener("mousemove", (e) => {
+    const card = e.target.closest(".team-member");
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    const rotateY = ((x / rect.width) - 0.5) * 12;
+    const rotateX = (0.5 - (y / rect.height)) * 12;
+    
+    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`;
+    card.style.setProperty("--mouse-x", `${x}px`);
+    card.style.setProperty("--mouse-y", `${y}px`);
+});
+
+document.addEventListener("mouseout", (e) => {
+    const card = e.target.closest(".team-member");
+    if (!card) return;
+    if (!e.relatedTarget || !card.contains(e.relatedTarget)) {
+        card.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)";
+    }
+});

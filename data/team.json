@@ -16,7 +16,7 @@
                     "description": ""
                 },
                 {
-                    "name": "Dang Huy Hau",
+                    "name": "Tran The Bao",
                     "role": "Setter",
                     "description": ""
                 }
@@ -31,17 +31,27 @@
                     "name": "Ta Hoang Phuc",
                     "role": "Online Judge Maintainer",
                     "description": ""
+                },
+                {
+                    "name": "Pham Huu Khiem",
+                    "role": "VPS Maintainer",
+                    "description": ""
                 }
             ]
         },
         {
             "key": "design",
-            "title": "Design Team",
-            "subtitle": "Shaping the brand and user experience.",
+            "title": "Design & Media Team",
+            "subtitle": "Shaping the brand, media outreach, and user experience.",
             "members": [
                 {
                     "name": "Nguyen Tien Son",
                     "role": "Designer",
+                    "description": ""
+                },
+                {
+                    "name": "Nguyen Pham Dong Nhi",
+                    "role": "Media",
                     "description": ""
                 }
             ]
