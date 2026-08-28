@@ -2,40 +2,92 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <title>TLOI - Thang Long Da Lat Olympiad in Informatics</title>
+        <meta
+            name="description"
+            content="Thang Long Da Lat Olympiad in Informatics (TLOI) - Organizing competitive programming contests, training sessions, and educational resources for students at Thang Long High School for the Gifted and beyond."
+        />
+        <meta name="theme-color" content="#fffaf6" />
+        <link rel="canonical" href="https://tloi.io.vn" />
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png" />
+        <link rel="apple-touch-icon" href="img/logo.png" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tloi.io.vn" />
+        <meta property="og:title" content="TLOI - Thang Long Da Lat Olympiad in Informatics" />
+        <meta
+            property="og:description"
+            content="Organizing competitive programming contests, training sessions, and educational resources for students at Thang Long High School for the Gifted and beyond."
+        />
+        <meta property="og:image" content="img/tloi.png" />
+        <meta property="og:site_name" content="TLOI" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://tloi.io.vn" />
+        <meta name="twitter:title" content="TLOI - Thang Long Da Lat Olympiad in Informatics" />
+        <meta
+            name="twitter:description"
+            content="Organizing competitive programming contests, training sessions, and educational resources for students at Thang Long High School for the Gifted and beyond."
+        />
+        <meta name="twitter:image" content="img/tloi.png" />
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "name": "Thang Long Da Lat Olympiad in Informatics",
+            "alternateName": "TLOI",
+            "url": "https://tloi.io.vn",
+            "logo": "img/tloi.png",
+            "sameAs": [
+                "https://fb.com/tloi.dl",
+                "https://github.com/tloi-dalat"
+            ],
+            "description": "Organizing competitive programming contests, training sessions, and educational resources for students at Thang Long High School for the Gifted and beyond."
+        }
+        </script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Comfortaa:wght@600;700&family=Nunito:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,600;0,700;0,800;1,400&family=Quicksand:wght@600;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800,900&f[]=general-sans@600,700,800&f[]=satoshi@600,700,800,900&display=swap" rel="stylesheet" />
 
-        <link rel="stylesheet" href="src/styles.css?=v13" />
+        <link rel="stylesheet" href="src/styles.css?v=73" />
+        <script src="src/script.js?v=73" defer></script>
     </head>
     <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
         <div class="grain-overlay" aria-hidden="true"></div>
         <div class="petal-container" aria-hidden="true"></div>
 
-        <div class="decor-dot-grid decor-dot-grid-1" aria-hidden="true"></div>
-        <div class="decor-dot-grid decor-dot-grid-2" aria-hidden="true"></div>
+        <div class="bg-ambient-layer" aria-hidden="true">
+            <div class="ambient-orb ambient-orb-1"></div>
+            <div class="ambient-orb ambient-orb-2"></div>
+            <div class="ambient-orb ambient-orb-3"></div>
+            <div class="decor-dot-grid decor-dot-grid-1"></div>
+            <div class="decor-dot-grid decor-dot-grid-2"></div>
+            <div class="decor-dot-grid decor-dot-grid-3"></div>
+        </div>
 
-        <nav>
-            <div class="container nav-inner">
-                <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position: absolute; overflow: hidden" aria-hidden="true" color-interpolation-filters="sRGB">
+            <defs id="svg-defs"></defs>
+        </svg>
+
+        <nav class="navbar liquid-navbar" aria-label="Main Navigation">
+            <div class="nav-inner">
+                <a href="#home" class="logo" aria-label="TLOI Home">
                     <img class="logo-img" src="img/tloi.png" alt="TLOI Logo" />
-                </div>
+                </a>
 
-                <ul>
-                    <li>
-                        <a
-                            href="https://fb.com/tloi.dl"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Facebook</a
-                        >
-                    </li>
+                <ul class="nav-links">
                     <li>
                         <a
                             href="https://oj.tloi.io.vn"
@@ -44,14 +96,23 @@
                             >Online Judge</a
                         >
                     </li>
+                    <li>
+                        <a
+                            href="https://fb.com/tloi.dl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Facebook</a
+                        >
+                    </li>
                 </ul>
             </div>
         </nav>
 
-        <section class="hero" id="home">
-            <div class="container hero-inner">
-                <div class="hero-content">
-                    <h2>Thang Long Da Lat Olympiad in Informatics</h2>
+        <main id="main-content">
+            <section class="hero hero-section" id="home">
+                <div class="container hero-inner">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Thang Long Da Lat Olympiad in Informatics</h1>
                     <p>
                         Organizing competitive programming contests, training
                         sessions, and educational resources for students at
@@ -82,7 +143,7 @@
                                 <stop offset="100%" stop-color="rgba(255, 255, 255, 0.45)" />
                             </linearGradient>
                             <filter id="svgNoise">
-                                <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
+                                <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" result="noise" />
                                 <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" />
                                 <feComposite operator="in" in2="SourceGraphic" />
                                 <feBlend mode="multiply" in2="SourceGraphic" />
@@ -115,7 +176,7 @@
                                     <rect x="35" y="105" width="140" height="7" rx="3.5" fill="var(--coral)" />
                                     <rect x="35" y="120" width="70" height="7" rx="3.5" fill="var(--yellow)" opacity="0.9" />
                                     <rect x="20" y="135" width="90" height="7" rx="3.5" fill="var(--accent)" />
-                                    <text x="185" y="155" fill="var(--yellow)" font-family="'JetBrains Mono', monospace" font-size="32" font-weight="700" opacity="0.85">{ }</text>
+                                    <text x="185" y="155" fill="var(--yellow)" font-family="var(--font-display, 'Syne', sans-serif)" font-size="32" font-weight="700" opacity="0.85">{ }</text>
                                 </g>
                             </g>
 
@@ -134,14 +195,14 @@
                                 </g>
                             </g>
 
-
                             <g class="float-card-badge-container">
-                                <g transform="translate(300, 260)">
-                                    <rect width="160" height="70" rx="14" fill="url(#gradLiquidGlass)" stroke="rgba(255, 255, 255, 0.65)" stroke-width="1.2" style="backdrop-filter: blur(25px);" />
-                                    <circle cx="30" cy="35" r="16" fill="rgba(254, 225, 128, 0.18)" />
-                                    <path d="M30 23 l3.5 7.5 l8 1 l-5.8 5.6 l1.4 8.2 l-7.1 -3.8 l-7.1 3.8 l1.4 -8.2 l-5.8 -5.6 l8 -1 z" fill="var(--yellow)" stroke="var(--coral)" stroke-width="1.2" stroke-linejoin="round" />
-                                    <text x="56" y="32" fill="var(--accent)" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800">TLOI Organizer</text>
-                                    <text x="56" y="48" fill="rgba(29, 18, 22, 0.55)" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Da Lat, Vietnam</text>
+                                <g transform="translate(300, 265)">
+                                    <rect width="154" height="64" rx="15" fill="url(#gradLiquidGlass)" stroke="rgba(255, 255, 255, 0.75)" stroke-width="1.2" style="backdrop-filter: blur(25px);" />
+                                    <circle cx="26" cy="32" r="14" fill="rgba(254, 225, 128, 0.22)" stroke="rgba(254, 225, 128, 0.45)" stroke-width="1" />
+                                    <path d="M26 23 l2.8 5.8 l6.4 0.8 l-4.6 4.4 l1.1 6.4 l-5.7 -3 l-5.7 3 l1.1 -6.4 l-4.6 -4.4 l6.4 -0.8 z" fill="var(--yellow)" stroke="var(--coral)" stroke-width="1.1" stroke-linejoin="round" />
+                                    <text x="95" y="24" text-anchor="middle" dominant-baseline="central" fill="var(--accent)" font-family="var(--font-h1, 'Outfit', sans-serif)" font-size="12" font-weight="800" letter-spacing="0.2">TLOI Organizer</text>
+                                    <rect x="56" y="35" width="78" height="18" rx="9" fill="rgba(255, 117, 143, 0.1)" stroke="rgba(255, 117, 143, 0.2)" stroke-width="0.8" />
+                                    <text x="95" y="44.5" text-anchor="middle" dominant-baseline="central" fill="rgba(29, 18, 22, 0.65)" font-family="var(--font-member-role, 'Outfit', sans-serif)" font-size="8.8" font-weight="700" letter-spacing="0.2">Da Lat, Vietnam</text>
                                 </g>
                             </g>
 
@@ -166,57 +227,81 @@
                     <div class="section-tag">Meet Our Team</div>
                     <h2 class="section-title">The People Behind TLOI</h2>
                 </div>
-                <div id="team-sections"></div>
+                <div id="team-sections" aria-live="polite">
+                    <div class="team-skeleton" aria-hidden="true">
+                        <div class="skeleton-header">
+                            <div class="skeleton-line skeleton-title-line"></div>
+                            <div class="skeleton-line skeleton-subtitle-line"></div>
+                        </div>
+                        <div class="team-grid">
+                            <div class="skeleton-card"></div>
+                            <div class="skeleton-card"></div>
+                            <div class="skeleton-card"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="team-bg-decoration" aria-hidden="true">
-                <svg viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 1200 200" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                        <linearGradient id="mountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.04" />
+                        <linearGradient id="hillGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.08" />
                             <stop offset="100%" stop-color="var(--cream)" stop-opacity="0" />
                         </linearGradient>
-                        <linearGradient id="treeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" stop-color="var(--coral)" stop-opacity="0.06" />
+                        <linearGradient id="hillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="var(--coral)" stop-opacity="0.08" />
+                            <stop offset="100%" stop-color="var(--cream)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="hillGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="var(--yellow)" stop-opacity="0.09" />
                             <stop offset="100%" stop-color="var(--cream)" stop-opacity="0" />
                         </linearGradient>
                     </defs>
-                    <path d="M 0,250 L 200,120 L 450,220 L 700,80 L 1000,250 Z" fill="url(#mountainGrad)" />
-                    <path d="M 0,280 L 300,180 L 550,240 L 800,140 L 1000,280 Z" fill="url(#mountainGrad)" opacity="0.6" />
-                    <polygon points="120,250 140,210 160,250" fill="url(#treeGrad)" />
-                    <polygon points="130,230 140,200 150,230" fill="url(#treeGrad)" />
-                    <polygon points="680,250 710,190 740,250" fill="url(#treeGrad)" />
-                    <polygon points="695,210 710,180 725,210" fill="url(#treeGrad)" />
-                    <polygon points="850,260 870,220 890,260" fill="url(#treeGrad)" />
+                    <path d="M 0,90 C 300,30 550,110 800,50 C 1000,10 1120,70 1200,40 L 1200,200 L 0,200 Z" fill="url(#hillGrad1)" />
+                    <path d="M 0,120 C 220,75 520,135 780,85 C 980,45 1100,105 1200,75 L 1200,200 L 0,200 Z" fill="url(#hillGrad2)" opacity="0.85" />
+                    <path d="M 0,150 C 180,120 420,165 680,130 C 920,95 1080,140 1200,110 L 1200,200 L 0,200 Z" fill="url(#hillGrad3)" opacity="0.7" />
                 </svg>
             </div>
         </section>
+        </main>
 
         <footer id="contact">
-            <div class="container footer-inner">
-                <img class="footer-logo-img" src="img/tloi.png" alt="TLOI Logo" />
-                <div class="footer-links">
-                    <a
-                        href="https://fb.com/tloi.dl"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Facebook</a
-                    >
-                    <a
-                        href="https://github.com/tloi-dalat"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >GitHub</a
-                    >
-                    <a href="mailto:tloi.dalat@gmail.com">Email</a>
-                    <a href="#home">Back to Top</a>
+            <div class="container footer-container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#home" class="footer-logo-link" aria-label="TLOI Home">
+                            <img class="footer-logo-img" src="img/tloi.png" alt="TLOI Logo" />
+                        </a>
+                        <p class="footer-desc">
+                            Thang Long Da Lat Olympiad in Informatics — Academic platform and competitive programming community at Thang Long High School for the Gifted, Da Lat, Vietnam.
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3 class="footer-col-title">NAVIGATION</h3>
+                        <ul class="footer-col-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="https://oj.tloi.io.vn" target="_blank" rel="noopener noreferrer">Online Judge</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3 class="footer-col-title">CONNECT</h3>
+                        <ul class="footer-col-links">
+                            <li><a href="https://fb.com/tloi.dl" target="_blank" rel="noopener noreferrer">Facebook Page</a></li>
+                            <li><a href="https://github.com/tloi-dalat" target="_blank" rel="noopener noreferrer">GitHub Org</a></li>
+                            <li><a href="mailto:tloi.dalat@gmail.com">tloi.dalat@gmail.com</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="copyright">
-                    © 2026 TLOI - Thang Long Da Lat Olympiad in Informatics. All
-                    rights reserved.
-                </p>
+
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        © 2026 TLOI — Thang Long Da Lat Olympiad in Informatics. All rights reserved.
+                    </p>
+                </div>
             </div>
         </footer>
-
-        <script src="src/script.js"></script>
     </body>
 </html>
