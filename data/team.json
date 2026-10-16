@@ -13,10 +13,21 @@
             "members": [
                 {
                     "name": {
-                        "en": "Dinh Cao Minh Quan",
-                        "vi": "Đinh Cao Minh Quân"
+                        "en": "Dang Huy Hau",
+                        "vi": "Đặng Huy Hậu"
                     },
-                    "avatar": "data/pfp/dcmq.webp",
+                    "role": {
+                        "en": "Club President & Setter Lead",
+                        "vi": "Chủ nhiệm CLB & Trưởng ban Chuyên môn"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Tran The Bao",
+                        "vi": "Trần Thế Bảo"
+                    },
+                    "avatar": "data/pfp/ttb.webp",
                     "role": {
                         "en": "Coordinator",
                         "vi": "Điều phối viên"
@@ -29,29 +40,6 @@
                         "vi": "Hoàng Đức Huy"
                     },
                     "avatar": "data/pfp/hdh.webp",
-                    "role": {
-                        "en": "Setter",
-                        "vi": "Ra đề"
-                    },
-                    "description": ""
-                },
-                {
-                    "name": {
-                        "en": "Tran The Bao",
-                        "vi": "Trần Thế Bảo"
-                    },
-                    "avatar": "data/pfp/ttb.webp",
-                    "role": {
-                        "en": "Setter",
-                        "vi": "Ra đề"
-                    },
-                    "description": ""
-                },
-                {
-                    "name": {
-                        "en": "Dang Huy Hau",
-                        "vi": "Đặng Huy Hậu"
-                    },
                     "role": {
                         "en": "Setter",
                         "vi": "Ra đề"
@@ -121,13 +109,25 @@
             "members": [
                 {
                     "name": {
+                        "en": "Dinh Cao Minh Quan",
+                        "vi": "Đinh Cao Minh Quân"
+                    },
+                    "avatar": "data/pfp/dcmq.webp",
+                    "role": {
+                        "en": "Technical Lead",
+                        "vi": "Trưởng ban Kỹ thuật"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
                         "en": "Ta Hoang Phuc",
                         "vi": "Tạ Hoàng Phúc"
                     },
                     "avatar": "data/pfp/thp.webp",
                     "role": {
-                        "en": "Online Judge Developer",
-                        "vi": "Phát triển Online Judge"
+                        "en": "Club Vice President & Software Developer",
+                        "vi": "Phó Chủ nhiệm CLB & Phát triển phần mềm"
                     },
                     "description": ""
                 },
@@ -149,8 +149,8 @@
                     },
                     "avatar": "data/pfp/ltt.webp",
                     "role": {
-                        "en": "Technical Staff",
-                        "vi": "Kỹ thuật viên"
+                        "en": "Software Developer",
+                        "vi": "Phát triển phần mềm"
                     },
                     "description": ""
                 }
@@ -159,7 +159,7 @@
         {
             "key": "design",
             "title": {
-                "en": "Design & Media Team",
+                "en": "Media Team",
                 "vi": "Ban Truyền thông"
             },
             "subtitle": {
@@ -174,8 +174,8 @@
                     },
                     "avatar": "data/pfp/nts.webp",
                     "role": {
-                        "en": "Designer",
-                        "vi": "Thiết kế"
+                        "en": "Media Lead",
+                        "vi": "Trưởng ban Truyền thông"
                     },
                     "description": ""
                 },
@@ -186,8 +186,8 @@
                     },
                     "avatar": "data/pfp/npdn.webp",
                     "role": {
-                        "en": "Media",
-                        "vi": "Truyền thông"
+                        "en": "Club Secretary & Media",
+                        "vi": "Thư ký CLB & Truyền thông"
                     },
                     "description": ""
                 },

@@ -38,7 +38,7 @@ const I18N_TRANSLATIONS = {
             facebookBtn: "Facebook",
         },
         mascot: {
-            organizer: "TLOI Core Team",
+            organizer: "TLOI Team",
             location: "Đà Lạt, Việt Nam",
         },
         team: {
@@ -56,6 +56,7 @@ const I18N_TRANSLATIONS = {
             connect: "KẾT NỐI",
             facebook: "Facebook",
             github: "GitHub",
+            email: "Email",
             copyright: "© 2026 TLOI — Thang Long Da Lat Olympiad in Informatics. All rights reserved.",
         },
     },
@@ -78,7 +79,7 @@ const I18N_TRANSLATIONS = {
             facebookBtn: "Facebook",
         },
         mascot: {
-            organizer: "TLOI Core Team",
+            organizer: "TLOI Team",
             location: "Da Lat, Vietnam",
         },
         team: {
@@ -96,6 +97,7 @@ const I18N_TRANSLATIONS = {
             connect: "CONNECT",
             facebook: "Facebook Page",
             github: "GitHub Org",
+            email: "Email",
             copyright: "© 2026 TLOI — Thang Long Da Lat Olympiad in Informatics. All rights reserved.",
         },
     },
