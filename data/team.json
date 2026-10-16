@@ -2,56 +2,229 @@
     "teams": [
         {
             "key": "setters",
-            "title": "Problem Setters",
-            "subtitle": "Crafting high-quality, educational, and challenging problems.",
+            "title": {
+                "en": "Setter",
+                "vi": "Ban Chuyên môn"
+            },
+            "subtitle": {
+                "en": "The people who make you think.",
+                "vi": "Những người khiến bạn phải nghĩ."
+            },
             "members": [
                 {
-                    "name": "Dinh Cao Minh Quan",
-                    "role": "Coordinator",
+                    "name": {
+                        "en": "Dinh Cao Minh Quan",
+                        "vi": "Đinh Cao Minh Quân"
+                    },
+                    "avatar": "data/pfp/dcmq.webp",
+                    "role": {
+                        "en": "Coordinator",
+                        "vi": "Điều phối viên"
+                    },
                     "description": ""
                 },
                 {
-                    "name": "Hoang Duc Huy",
-                    "role": "Setter",
+                    "name": {
+                        "en": "Hoang Duc Huy",
+                        "vi": "Hoàng Đức Huy"
+                    },
+                    "avatar": "data/pfp/hdh.webp",
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
                     "description": ""
                 },
                 {
-                    "name": "Tran The Bao",
-                    "role": "Setter",
+                    "name": {
+                        "en": "Tran The Bao",
+                        "vi": "Trần Thế Bảo"
+                    },
+                    "avatar": "data/pfp/ttb.webp",
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Dang Huy Hau",
+                        "vi": "Đặng Huy Hậu"
+                    },
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "La Gia Huy",
+                        "vi": "Lã Gia Huy"
+                    },
+                    "avatar": "data/pfp/lgh.webp",
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Tran Minh Huy",
+                        "vi": "Trần Minh Huy"
+                    },
+                    "avatar": "data/pfp/tmh.webp",
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Vo Gia Minh",
+                        "vi": "Võ Gia Minh"
+                    },
+                    "avatar": "data/pfp/vgm.webp",
+                    "role": {
+                        "en": "Setter",
+                        "vi": "Ra đề"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Nguyen Quang Long (chovang)",
+                        "vi": "Nguyễn Quang Long (chovang)"
+                    },
+                    "avatar": "data/pfp/nql.webp",
+                    "role": {
+                        "en": "ATM",
+                        "vi": "ATM"
+                    },
                     "description": ""
                 }
             ]
         },
         {
             "key": "tech",
-            "title": "Technical Team",
-            "subtitle": "Building and maintaining the platform and infrastructure.",
+            "title": {
+                "en": "Technical Team",
+                "vi": "Ban Kỹ thuật"
+            },
+            "subtitle": {
+                "en": "The people who make it all work.",
+                "vi": "Những người làm cho mọi thứ hoạt động."
+            },
             "members": [
                 {
-                    "name": "Ta Hoang Phuc",
-                    "role": "Online Judge Developer",
+                    "name": {
+                        "en": "Ta Hoang Phuc",
+                        "vi": "Tạ Hoàng Phúc"
+                    },
+                    "avatar": "data/pfp/thp.webp",
+                    "role": {
+                        "en": "Online Judge Developer",
+                        "vi": "Phát triển Online Judge"
+                    },
                     "description": ""
                 },
                 {
-                    "name": "Pham Huu Khiem",
-                    "role": "VPS Maintainer",
+                    "name": {
+                        "en": "Pham Huu Khiem",
+                        "vi": "Phạm Hữu Khiêm"
+                    },
+                    "role": {
+                        "en": "VPS Maintainer",
+                        "vi": "Quản trị máy chủ"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Le Tuan Thinh",
+                        "vi": "Lê Tuấn Thịnh"
+                    },
+                    "avatar": "data/pfp/ltt.webp",
+                    "role": {
+                        "en": "Technical Staff",
+                        "vi": "Kỹ thuật viên"
+                    },
                     "description": ""
                 }
             ]
         },
         {
             "key": "design",
-            "title": "Design & Media Team",
-            "subtitle": "Shaping the brand, media outreach, and user experience.",
+            "title": {
+                "en": "Design & Media Team",
+                "vi": "Ban Truyền thông"
+            },
+            "subtitle": {
+                "en": "The people who catch your attention.",
+                "vi": "Những người thu hút sự chú ý của bạn."
+            },
             "members": [
                 {
-                    "name": "Nguyen Tien Son",
-                    "role": "Designer",
+                    "name": {
+                        "en": "Nguyen Tien Son",
+                        "vi": "Nguyễn Tiến Sơn"
+                    },
+                    "avatar": "data/pfp/nts.webp",
+                    "role": {
+                        "en": "Designer",
+                        "vi": "Thiết kế"
+                    },
                     "description": ""
                 },
                 {
-                    "name": "Nguyen Pham Dong Nhi",
-                    "role": "Media",
+                    "name": {
+                        "en": "Nguyen Pham Dong Nhi",
+                        "vi": "Nguyễn Phạm Đông Nhi"
+                    },
+                    "avatar": "data/pfp/npdn.webp",
+                    "role": {
+                        "en": "Media",
+                        "vi": "Truyền thông"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Bui Duy Tri Thien",
+                        "vi": "Bùi Duy Trí Thiện"
+                    },
+                    "avatar": "data/pfp/bdtt.webp",
+                    "role": {
+                        "en": "Media",
+                        "vi": "Truyền thông"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Huynh Anh Kiet",
+                        "vi": "Huỳnh Anh Kiệt"
+                    },
+                    "avatar": "data/pfp/hak.webp",
+                    "role": {
+                        "en": "Media",
+                        "vi": "Truyền thông"
+                    },
+                    "description": ""
+                },
+                {
+                    "name": {
+                        "en": "Hoang Duc Chinh",
+                        "vi": "Hoàng Đức Chính"
+                    },
+                    "avatar": "data/pfp/hdc.webp",
+                    "role": {
+                        "en": "Media",
+                        "vi": "Truyền thông"
+                    },
                     "description": ""
                 }
             ]
