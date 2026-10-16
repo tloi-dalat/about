@@ -708,7 +708,13 @@ const DEFAULT_AVATARS = {
     "Huynh Anh Kiet": "data/pfp/hak.webp",
     "Huỳnh Anh Kiệt": "data/pfp/hak.webp",
     "Hoang Duc Chinh": "data/pfp/hdc.webp",
-    "Hoàng Đức Chính": "data/pfp/hdc.webp"
+    "Hoàng Đức Chính": "data/pfp/hdc.webp",
+    "Dang Huy Hau": "data/pfp/dhh.webp",
+    "Đặng Huy Hậu": "data/pfp/dhh.webp",
+    "Pham Huu Khiem": "data/pfp/phk.webp",
+    "Phạm Hữu Khiêm": "data/pfp/phk.webp",
+    "Vo Gia Minh": "data/pfp/vgm.webp",
+    "Võ Gia Minh": "data/pfp/vgm.webp"
 };
 
 function getMemberInitial(name) {

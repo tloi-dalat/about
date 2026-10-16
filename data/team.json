@@ -16,6 +16,7 @@
                         "en": "Dang Huy Hau",
                         "vi": "Đặng Huy Hậu"
                     },
+                    "avatar": "data/pfp/dhh.webp",
                     "role": {
                         "en": "Club President & Setter Lead",
                         "vi": "Chủ nhiệm CLB & Trưởng ban Chuyên môn"
@@ -136,6 +137,7 @@
                         "en": "Pham Huu Khiem",
                         "vi": "Phạm Hữu Khiêm"
                     },
+                    "avatar": "data/pfp/phk.webp",
                     "role": {
                         "en": "VPS Maintainer",
                         "vi": "Quản trị máy chủ"
